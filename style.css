@@ -46,6 +46,7 @@
 .list__item {
   list-style: none;
 }
+.add-task__input,
 .list__input,
 .btn {
   outline: none;
@@ -74,6 +75,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+.add-task__input,
 .list__input_type_text {
   margin: 0;
   font-size: 18px;
@@ -86,6 +88,7 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+.add-task__input:focus,
 .list__input_type_text:focus {
   color: #333;
 }
